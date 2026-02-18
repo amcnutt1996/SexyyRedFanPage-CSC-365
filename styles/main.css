@@ -1,0 +1,62 @@
+/* colors
+darkest red - #EB4C4C
+text - #FF7070
+secondary- #FFA6A6
+background - #FFEDC7  */
+
+body {
+    background-color: #FFEDC7;
+    margin: 0;
+}
+main{
+    margin: 5px 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFA6A6;
+    margin: 0;
+}
+header img {
+    filter: drop-shadow(15px 10px 10px black);
+    margin: 0 0 -3px 0;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFA6A6;
+    margin-top: 2%;
+    padding: 2% 0 2% 0;
+}
+footer h5 {
+    text-align: center;
+}
+footer .quotes-div {
+    display: flex;
+    flex-direction: column;
+}
+footer .quotes-div h5 {
+    margin: 0;
+}
+.quotes-div h5:nth-of-type(1){
+    text-align: left;
+    margin: 2px 0 2px 5%;
+}
+.quotes-div h5:nth-of-type(2){
+    text-align: right;
+    margin: 2px 5% 2px 0;
+}
+footer h5:nth-of-type(3){
+    text-align: center;
+    margin: 2px 15% 2px 0;
+}
+footer .center-text {
+    margin: 5px 0 5px 0;
+    padding-left: 35%;
+}
