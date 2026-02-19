@@ -1,0 +1,4 @@
+Heavy Gold: #D4AF37
+Electric Lime: #CCFF00
+Hot Pink: #FF69B4
+Onyx Black: #0F0F0F
