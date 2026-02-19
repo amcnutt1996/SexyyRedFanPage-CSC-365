@@ -1,8 +1,9 @@
-
+/* Gregory McNutt */
 body {
 	color: white;
     background-color: #0F0F0F;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main {
     margin: 10px 10px;
@@ -11,12 +12,13 @@ header {
     background-color:#D4AF37;
    	display: flex;
 	align-items: center;
+	justify-content: center;
+	padding: 30px 0;
 }
 header a {
-	position: relative;
+	position:absolute;
 	text-decoration: none;
-	left: 25%;
-	top: 10%;
+	padding-right: 100px;
 	margin-top: 20px;
 }
 header img {
@@ -24,24 +26,25 @@ header img {
     filter: drop-shadow(15px 10px 10px black);
 }
 header h1 {
+	position: relative;
+	left: 150px;
 	z-index: 1;
-	font-size: 75px;
+	font-size: 100px;
 	color: black;
 	text-shadow: 8px 8px 10px #D6D6D6;
-	text-align: center;
-	margin: 0;
 	pointer-events: none;
 }
 
 nav {
 	background: #D4AF37;
-	border-radius: 50px;
+	border-radius: 30px;
 }
 nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
 	justify-content: space-evenly;
+	gap: 5%;
 	margin: 0;
 	padding: 0;
 }
@@ -51,7 +54,7 @@ nav ul li {
 	padding-top: 10px;
 }
 nav ul li a {
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	font-size: 30px;
 	color: #FF69B4;
 	text-shadow: 2px -1px 2px #0f0f0f;
@@ -85,21 +88,20 @@ footer .quotes-div h5 {
 }
 .quotes-div h5:nth-of-type(1) {
     text-align: left;
-    margin-left: 25%;
+    margin-left: 10%;
 
 }
 .quotes-div h5:nth-of-type(2) {
     text-align: right;
-    margin-right: 20%;
+    margin-right: 10%;
 
 }
 footer h5:nth-of-type(3) {
     text-align: center;
-    margin-left: 5%;
-
 }
 footer .center-text {
-	margin-left: 40%;
+	margin-left: 30%;
+	text-wrap-mode: nowrap;
 }
 
 
