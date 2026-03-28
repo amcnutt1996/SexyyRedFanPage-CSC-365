@@ -1,29 +1,29 @@
 /* Gregory McNutt */
 body {
 	color: white;
-    background-color: #0F0F0F;
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #0f0f0f;
+	margin: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main {
-    margin: 10px 10px;
+	margin: 10px 10px;
 }
 header {
-    background-color:#D4AF37;
-   	display: flex;
+	background-color: #d4af37;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 30px 0;
 }
 header a {
-	position:absolute;
+	position: absolute;
 	text-decoration: none;
 	padding-right: 100px;
 	margin-top: 20px;
 }
 header img {
 	z-index: 0;
-    filter: drop-shadow(15px 10px 10px black);
+	filter: drop-shadow(15px 10px 10px black);
 }
 header h1 {
 	position: relative;
@@ -31,12 +31,12 @@ header h1 {
 	z-index: 1;
 	font-size: 100px;
 	color: black;
-	text-shadow: 8px 8px 10px #D6D6D6;
+	text-shadow: 8px 8px 10px #d6d6d6;
 	pointer-events: none;
 }
 
 nav {
-	background: #D4AF37;
+	background: #d4af37;
 	border-radius: 30px;
 }
 nav ul {
@@ -56,65 +56,60 @@ nav ul li {
 nav ul li a {
 	letter-spacing: 2px;
 	font-size: 30px;
-	color: #FF69B4;
+	color: #ff69b4;
 	text-shadow: 2px -1px 2px #0f0f0f;
 	text-decoration: none;
 }
-nav ul li a:hover, nav ul li a:focus {
-	text-decoration: underline #D6D6D6;
-	color: #D6D6D6
+nav ul li a:hover,
+nav ul li a:focus {
+	text-decoration: underline #d6d6d6;
+	color: #d6d6d6;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #D4AF37;
-    color: #0f0f0f;
-    font-size: 20px;
-    margin-top: 2%;
-    padding: 2% 0 2% 0;
+	display: flex;
+	flex-direction: column;
+	background-color: #d4af37;
+	color: #0f0f0f;
+	font-size: 20px;
+	margin-top: 2%;
+	padding: 2% 0 2% 0;
 }
 footer h5 {
-    text-align: center;
-    margin-top: 2px;
-    margin-bottom: 2px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
-footer .quotes-div {
-    display: flex;
-    flex-direction: column;
+footer section {
+	display: flex;
+	flex-direction: column;
 }
-footer .quotes-div h5 {
-    margin: 0;
+footer section h5 {
+	margin: 0;
 }
-.quotes-div h5:nth-of-type(1) {
-    text-align: left;
-    margin-left: 10%;
-
+section h5:nth-of-type(1) {
+	text-align: left;
+	margin-left: 10%;
 }
-.quotes-div h5:nth-of-type(2) {
-    text-align: right;
-    margin-right: 10%;
-
+section h5:nth-of-type(2) {
+	text-align: right;
+	margin-right: 10%;
 }
 footer h5:nth-of-type(3) {
-    text-align: center;
+	text-align: center;
 }
-footer .center-text {
+footer h5 {
 	margin-left: 30%;
 	text-wrap-mode: nowrap;
 }
 
-
-
-
-
 .gravitas-one-regular {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Gravitas One", serif;
+	font-weight: 400;
+	font-style: normal;
 }
 .luckiest-guy-regular {
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Luckiest Guy", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
