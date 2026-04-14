@@ -49,22 +49,23 @@ nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
-	justify-content: space-evenly;
-	gap: 5%;
+	justify-content: space-around;
+	align-content: center;
 	margin: 0;
-	padding: 0;
+	padding: 0 1.5em;
 }
 nav ul li {
-	text-align: center;
-	list-style-type: none;
+	/* text-align: center; */
+	/* list-style-type: none; */
 	padding-top: 10px;
 }
 nav ul li a {
 	letter-spacing: 2px;
 	font-size: 30px;
 	color: #ff69b4;
-	text-shadow: 2px -1px 2px #0f0f0f;
+	text-shadow: 2px -1px 2px #000000;
 	text-decoration: none;
+	letter-spacing:15%;
 }
 nav ul li a:hover,
 nav ul li a:focus {
@@ -81,6 +82,7 @@ nav ul li #current {
 
 section {
 	padding: 3em;
+	margin-bottom: 10%;
 }
 section h1 {
 	text-align: center;
@@ -88,7 +90,40 @@ section h1 {
 section img {
 	float: right;
 }
-
+.call-to-action {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: auto;
+	font-size: 300%;
+}
+.call-to-action h3 {
+	margin: 0;
+	padding: 0 0 2% 0;
+}
+.call-to-action button {
+	display: flex;
+	width: 50%;
+	height: 10%;
+	align-self: center;
+	font-size: 100%;
+	text-align: center;
+	text-wrap: nowrap;
+	background-image: url('../images/headshot_nobg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: right;
+	background-color: #ff69b4;
+}
+.call-to-action button span {
+	width: 50%;
+	font-size: 35%;
+	text-align: end;
+	color: white;
+}
+.call-to-action button:hover {
+	background-color: #d4af37;
+}
 
 footer {
 	width: 100%;
