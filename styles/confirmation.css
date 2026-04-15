@@ -1,0 +1,26 @@
+section {
+    text-align: center;
+}
+
+section button {
+	margin-top: 50px;
+	border-style:outset;
+	border-width: 5px;
+	border-radius: 20px;
+	height: 100px;
+	width: 400px;
+	font-size: 2rem;
+    color: white;
+	background-image: url('../images/headshot_nobg.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: right;
+	background-color: #ff69b4;
+	border-color: #0f0f0f;
+	box-shadow: white 0 0 30px;
+}
+
+section button:hover {
+	color:#d4af37;
+	background-color:#0f0f0f;
+}

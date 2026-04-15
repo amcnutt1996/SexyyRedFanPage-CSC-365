@@ -16,6 +16,7 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Luckiest+Guy&family=Permanent+Marker&display=swap"
 		rel="stylesheet">
+	<script src="newsletter.js" defer></script>
 
 </head>
 
@@ -64,21 +65,6 @@
 		</div>
 		<h5 class="permanent-marker-regular center-text">-Glo Rilla</h5>
 	</footer>
-	<script>
-		'use strict'
-		//TODO: add input validation for empty values
-		document.getElementsByTagName('button')[0].addEventListener('click', () => {
-			let firstName = document.getElementById('first-name').value;
-			let lastName = document.getElementById('last-name').value;
-			let email = document.getElementById('email').value;
-
-			email == "" ? alert("please enter your email address") :
-				(firstName == "" ? alert("Please enter your first name") :
-					(lastName = "" ? alert("enter your last name") :
-					window.location.href = 'confirmation.html?first-name=' + firstName + '&last-name=' + lastName + '&email=' + email));
-		})
-
-	</script>
 </body>
 
 </html>

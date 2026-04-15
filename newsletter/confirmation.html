@@ -10,12 +10,14 @@
 	<meta name="keywords" content="Glo Rilla, Fanpage, Glo Rilla Fanpage, Music, Artist, Rap">
 	<title>Glo Rilla | Fan Page</title>
 	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/confirmation.css">
 	<link rel="icon" href="../images/favicon_io/favicon.ico" alt="Favicon Icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
 		href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Luckiest+Guy&family=Permanent+Marker&display=swap"
 		rel="stylesheet">
+	<script src="confirmation.js" defer></script>
 
 </head>
 
@@ -26,23 +28,26 @@
 		</a>
 		<h1 class="luckiest-guy-regular">Glo Rilla</h1>
 	</header>
-		<nav>
-			<ul class="luckiest-guy-regular">
-				<li><a href="../early-life/index.html"> Early Life </a></li>
-				<li><a href="../career/index.html"> Career </a></li>
-				<li><a href="../discography/index.html"> Discography </a></li>
-				<li>
-					<a href="../awards-nominations/index.html"> Awards </a>
-				</li>
-				<li><a href="../music-videos/index.html"> Listen Now </a></li>
-			</ul>
-		</nav>
+	<nav>
+		<ul class="luckiest-guy-regular">
+			<li><a href="../early-life/index.html"> Early Life </a></li>
+			<li><a href="../career/index.html"> Career </a></li>
+			<li><a href="../discography/index.html"> Discography </a></li>
+			<li>
+				<a href="../awards-nominations/index.html"> Awards </a>
+			</li>
+			<li><a href="../music-videos/index.html"> Listen Now </a></li>
+		</ul>
+	</nav>
 
-        <section>
-			<h1 class="permanent-marker-regular">SIGN UP CONFIRMED!</h1>
-			<h2 class="permanent-marker-regular">Enjoy the Glo Rilla News Updates!</h2>
-			<button type="button">Home</button>
-		</section>
+	<section>
+		<h1 class="permanent-marker-regular">SIGN UP CONFIRMED!</h1>
+		<h1 class="permanent-marker-regular">Thank you!<span id="name"></span></h1>
+		<h2 class="permanent-marker-regular">You are now subscribed to the newsletter!</h2>
+		<h2 class="permanent-marker-regular">Check your email at: <span id="email"></span></h2>
+		<h2 class="permanent-marker-regular">Enjoy the Glo Rilla News Updates!</h2>
+		<button type="button">Return Home</button>
+	</section>
 
 	<footer>
 		<div class="quotes-div">
@@ -52,12 +57,6 @@
 		</div>
 		<h5 class="center-text">-Glo Rilla</h5>
 	</footer>
-	<script>
-		//TODO: need to add a script that parses the URL parameters with URLSearchParams
-		// then wire it up to show confirmation to user that their email and name are signed up
-		// also style button.
-
-	</script>
 </body>
 
 </html>
