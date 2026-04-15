@@ -9,6 +9,7 @@
 	<meta name="keywords" content="Glo Rilla, Fanpage, Glo Rilla Fanpage, Music, Artist, Rap">
 	<title>Glo Rilla | Fan Page</title>
 	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/newsletter.css">
 	<link rel="icon" href="../images/favicon_io/favicon.ico" alt="Favicon Icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,18 +39,21 @@
 	</nav>
 
 	<section>
+
 		<h1 class="permanent-marker-regular">Sign Up!</h1>
 		<h2 class="permanent-marker-regular">Sign up now to start getting news about all things Glo Rilla!</h2>
-		<label>Email:</label>
-		<input type="email" id="email" name="email">
+		<div class="form-div">
+			<label>Email:</label>
+			<input type="email" id="email" name="email">
 
-		<label>First Name:</label>
-		<input type="text" id="first-name" name="first-name">
+			<label>First Name:</label>
+			<input type="text" id="first-name" name="first-name">
 
-		<label>Last Name:</label>
-		<input type="text" id="last-name" name="last-name">
+			<label>Last Name:</label>
+			<input type="text" id="last-name" name="last-name">
 
-		<button type="button">Start Getting Updates!</button>
+			<button type="button">Start Getting Updates!</button>
+		</div>
 	</section>
 
 	<footer>
@@ -62,11 +66,16 @@
 	</footer>
 	<script>
 		'use strict'
+		//TODO: add input validation for empty values
 		document.getElementsByTagName('button')[0].addEventListener('click', () => {
 			let firstName = document.getElementById('first-name').value;
 			let lastName = document.getElementById('last-name').value;
 			let email = document.getElementById('email').value;
-			window.location.href = 'confirmation.html?first-name=' + firstName + '&last-name=' + lastName + '&email=' + email;
+
+			email == "" ? alert("please enter your email address") :
+				(firstName == "" ? alert("Please enter your first name") :
+					(lastName = "" ? alert("enter your last name") :
+					window.location.href = 'confirmation.html?first-name=' + firstName + '&last-name=' + lastName + '&email=' + email));
 		})
 
 	</script>
