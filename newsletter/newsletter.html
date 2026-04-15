@@ -1,7 +1,6 @@
 <html lang="en">
 
 <head>
-	<!-- Gregory McNutt -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -13,8 +12,10 @@
 	<link rel="icon" href="../images/favicon_io/favicon.ico" alt="Favicon Icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Luckiest+Guy&display=swap"
+	<link
+		href="https://fonts.googleapis.com/css2?family=Gravitas+One&family=Luckiest+Guy&family=Permanent+Marker&display=swap"
 		rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,33 +25,51 @@
 		</a>
 		<h1 class="luckiest-guy-regular">Glo Rilla</h1>
 	</header>
-	<main>
-		<nav>
-			<ul class="luckiest-guy-regular">
-				<li><a href="../early-life/index.html"> Early Life </a></li>
-				<li><a href="../career/index.html"> Career </a></li>
-				<li><a href="../discography/index.html"> Discography </a></li>
-				<li>
-					<a href="../awards-nominations/index.html"> Awards </a>
-				</li>
-				<li><a href="../music-videos/index.html"> Listen Now </a></li>
-			</ul>
-		</nav>
+	<nav>
+		<ul class="luckiest-guy-regular">
+			<li><a href="../early-life/index.html"> Early Life </a></li>
+			<li><a href="../career/index.html"> Career </a></li>
+			<li><a href="../discography/index.html"> Discography </a></li>
+			<li>
+				<a href="../awards-nominations/index.html"> Awards </a>
+			</li>
+			<li><a href="../music-videos/index.html"> Listen Now </a></li>
+		</ul>
+	</nav>
 
-		<section>
-			<button type="submit">Submit</button>
-		</section>
+	<section>
+		<h1 class="permanent-marker-regular">Sign Up!</h1>
+		<h2 class="permanent-marker-regular">Sign up now to start getting news about all things Glo Rilla!</h2>
+		<label>Email:</label>
+		<input type="email" id="email" name="email">
 
+		<label>First Name:</label>
+		<input type="text" id="first-name" name="first-name">
 
-	</main>
+		<label>Last Name:</label>
+		<input type="text" id="last-name" name="last-name">
+
+		<button type="button">Start Getting Updates!</button>
+	</section>
+
 	<footer>
 		<div class="quotes-div">
-			<h5>"Hustle like you broke, stack like you rich."</h5>
-			<h5>"I love me some me."</h5>
-			<h5>"I'm not hard to love, you just broke."</h5>
+			<h5 class="permanent-marker-regular">"Hustle like you broke, stack like you rich."</h5>
+			<h5 class="permanent-marker-regular">"I love me some me."</h5>
+			<h5 class="permanent-marker-regular">"I'm not hard to love, you just broke."</h5>
 		</div>
-		<h5 class="center-text">-Glo Rilla</h5>
+		<h5 class="permanent-marker-regular center-text">-Glo Rilla</h5>
 	</footer>
+	<script>
+		'use strict'
+		document.getElementsByTagName('button')[0].addEventListener('click', () => {
+			let firstName = document.getElementById('first-name').value;
+			let lastName = document.getElementById('last-name').value;
+			let email = document.getElementById('email').value;
+			window.location.href = 'confirmation.html?first-name=' + firstName + '&last-name=' + lastName + '&email=' + email;
+		})
+
+	</script>
 </body>
 
 </html>

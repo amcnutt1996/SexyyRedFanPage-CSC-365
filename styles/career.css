@@ -1,7 +1,13 @@
 
-main img {
+section img {
     float: right;
     height: 50%;
     width: 50%;
+    border-style: groove;
+    border-radius: 30px;
+    border-width: 5px;
+    border-color: #d4af37;
+    overflow: hidden;
+    margin: .05em 1em;
 }
 

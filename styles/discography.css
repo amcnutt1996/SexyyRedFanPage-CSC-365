@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-flow: column;
+}
+section {
+    flex-basis: 50%;
+}
+div {
+    flex-basis: 10%;
+    margin: 3em 0;
+    display: flex;
+    float: right;
+}
+div img {
+    width: 35em;
+    border-style: groove;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: #FF69B4;
+    overflow: hidden;
+    box-shadow: #CCFF00 0px 0 50px;
+}
+div span {
+    position: relative;
+    top: 35px;
+    left: 295px;
+    transform: rotate(-25deg);
+    font-size: 2em;
+    text-shadow: yellow 0 0 15px;
+    text-wrap: nowrap;
+}
