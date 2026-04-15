@@ -1,0 +1,37 @@
+section {
+    text-align: center;
+}
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 2%;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0 2% 0;
+}
+
+.video h3 {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #D4AF37;
+    color: #0f0f0f;
+}
+.video a {
+    margin: 0 auto;
+}
+
+.video img {
+    border-style: inset;
+    border-color: #D4AF37;
+    border-radius: 3px;
+}
+
+section>h3 {
+    background-color: #FF69B4;
+    border-radius: 20px;
+    font-size: 2em;
+}

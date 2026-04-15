@@ -1,7 +1,14 @@
 /* Gregory McNutt */
 body {
 	color: white;
-	background-color: #0f0f0f;
+	background: #5c5c5c;
+	background: linear-gradient(
+		0deg,
+		rgba(92, 92, 92, 1) 0%,
+		rgba(0, 0, 0, 1) 50%,
+		rgba(89, 89, 89, 1) 100%
+	); /* background-color: #0f0f0f; */
+
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -10,7 +17,7 @@ body {
 	height: 100%;
 }
 main {
-	margin: .5em 0;
+	margin: 0.5em 0;
 	flex: 1;
 	width: 100%;
 	align-content: center;
@@ -44,7 +51,7 @@ header h1 {
 }
 
 nav {
-	margin: 10px auto ;
+	margin: 10px auto;
 	background: #d4af37;
 	border-radius: 30px;
 	width: 80%;
@@ -58,7 +65,6 @@ nav ul {
 	margin: 0;
 }
 nav ul li {
-
 	padding-top: 10px;
 }
 nav ul li a {
@@ -67,8 +73,8 @@ nav ul li a {
 	color: #ff69b4;
 	text-shadow: 2px -1px 2px #000000;
 	text-decoration: none;
-	letter-spacing:15%;
-	padding: 0 .5em;
+	letter-spacing: 15%;
+	padding: 0 0.5em;
 }
 nav ul li a:hover,
 nav ul li a:focus {
@@ -78,7 +84,7 @@ nav ul li a:focus {
 nav ul li #current {
 	padding-top: 10px;
 	border: #0f0f0f;
-	border-style:inset;
+	border-style: inset;
 	border-radius: 20%;
 	border-width: 5px;
 }
@@ -127,13 +133,13 @@ section img {
 	padding: 0 0 2% 0;
 }
 .call-to-action button {
-	border-style:outset;
+	border-style: outset;
 	border-width: 5px;
 	border-radius: 20px;
 	display: flex;
 	width: 60em;
 	align-self: center;
-	background-image: url('../images/headshot_nobg.png');
+	background-image: url("../images/headshot_nobg.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position-x: right;
@@ -152,7 +158,6 @@ section img {
 }
 .btn-title:hover {
 	text-shadow: #d4af37 -5px 0px 10px;
-
 }
 .btn-subtext {
 	position: relative;
@@ -163,15 +168,13 @@ section img {
 	color: white;
 	transform: rotateZ(-25deg);
 	text-shadow: #0f0f0f -5px 0px 10px;
-
 }
 .btn-subtext:hover {
 	text-shadow: #d4af37 -5px 0px 10px;
-
 }
 .call-to-action button:hover {
-	color:#d4af37;
-	background-color:#0f0f0f;
+	color: #d4af37;
+	background-color: #0f0f0f;
 }
 
 footer {
@@ -192,7 +195,15 @@ footer h5 {
 footer .center-text {
 	display: flex;
 	flex-direction: column;
-	margin-left: 40%;;
+	margin-left: 40%;
+}
+
+.line {
+	align-self: center;
+	width: 80%;
+	height: 2px;
+	background-color: #d4af37;
+	margin: 2% 0;
 }
 
 .quotes-div h5:nth-of-type(1) {
@@ -222,8 +233,8 @@ footer .center-text {
 	font-style: normal;
 }
 .permanent-marker-regular {
-  font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 2px;
+	font-family: "Permanent Marker", cursive;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 2px;
 }
