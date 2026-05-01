@@ -33,8 +33,8 @@ header {
 header a {
 	position: absolute;
 	text-decoration: none;
-	padding-right: 100px;
-	margin-top: 20px;
+	padding-right: 6.25em;
+	margin-top: 1.25em;
 }
 header img {
 	z-index: 0;
@@ -51,7 +51,7 @@ header h1 {
 }
 
 nav {
-	margin: 10px auto;
+	margin: 0.625em auto;
 	background: #d4af37;
 	border-radius: 30px;
 	width: 80%;
@@ -65,7 +65,7 @@ nav ul {
 	margin: 0;
 }
 nav ul li {
-	padding-top: 10px;
+	padding-top: 0.625em;
 }
 nav ul li a {
 	letter-spacing: 2px;
@@ -82,11 +82,11 @@ nav ul li a:focus {
 	color: #d6d6d6;
 }
 nav ul li #current {
-	padding-top: 10px;
+	padding-top: 0.625em;
 	border: #0f0f0f;
 	border-style: inset;
 	border-radius: 20%;
-	border-width: 5px;
+	border-width: 0.3125em;
 }
 
 section {
@@ -100,8 +100,8 @@ section h1 {
 	font-size: 4em;
 	text-decoration: underline;
 	text-decoration-style: double;
-	text-decoration-thickness: 3px;
-	text-underline-offset: 10px;
+	text-decoration-thickness: 0.1875em;
+	text-underline-offset: 0.625em;
 	text-decoration-color: #d4af37;
 }
 section h2 {
@@ -110,29 +110,29 @@ section h2 {
 section img {
 	float: right;
 }
-.call-to-action {
+#call-to-action {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	font-size: 300%;
 	padding: 1% 0;
-	margin-bottom: 20px;
+	margin-bottom: 1.25em;
 }
-.call-to-action h2 {
+#call-to-action h2 {
 	font-size: 1.5em;
 	position: relative;
-	top: 10px;
+	top: 0.625em;
 	text-shadow: #0f0f0f -10px -5px 10px;
 	padding: 0;
 	margin: 0;
 }
-.call-to-action h3 {
+#call-to-action h3 {
 	font-size: 1.5em;
 	text-shadow: #0f0f0f -5px -5px 10px;
 	margin: 0;
 	padding: 0 0 2% 0;
 }
-.call-to-action button {
+#call-to-action button {
 	border-style: outset;
 	border-width: 5px;
 	border-radius: 20px;
@@ -147,32 +147,35 @@ section img {
 	border-color: #0f0f0f;
 	box-shadow: white 0 0 30px;
 }
-.btn-title {
+#call-to-action-title {
 	position: relative;
 	flex-shrink: inherit;
-	top: 10px;
-	left: -45px;
+	top: 0.625em;
+	left: -2.8125em;
 	font-size: 5em;
 	color: white;
 	text-shadow: #0f0f0f -5px 0px 10px;
 }
-.btn-title:hover {
+#call-to-action-title:hover,
+#call-to-action-title:focus {
 	text-shadow: #d4af37 -5px 0px 10px;
 }
-.btn-subtext {
+#call-to-action-subtext {
 	position: relative;
-	top: 50px;
-	right: 60px;
+	top: 3.125em;
+	right: 3.75em;
 	font-size: 1.5em;
 	text-wrap: nowrap;
 	color: white;
 	transform: rotateZ(-25deg);
 	text-shadow: #0f0f0f -5px 0px 10px;
 }
-.btn-subtext:hover {
+#call-to-action-subtext:hover,
+#call-to-action-subtext:focus {
 	text-shadow: #d4af37 -5px 0px 10px;
 }
-.call-to-action button:hover {
+#call-to-action button:hover,
+#call-to-action button:focus {
 	color: #d4af37;
 	background-color: #0f0f0f;
 }
@@ -189,8 +192,8 @@ footer {
 }
 footer h5 {
 	text-align: center;
-	margin-top: 2px;
-	margin-bottom: 2px;
+	margin-top: 0.125em;
+	margin-bottom: 0.125em;
 }
 footer .center-text {
 	display: flex;
@@ -208,17 +211,17 @@ footer .center-text {
 
 .quotes-div h5:nth-of-type(1) {
 	text-align: left;
-	margin-left: 10%;
+	margin-left: 0.625em;
 }
 .quotes-div h5:nth-of-type(2) {
 	text-align: right;
-	margin-right: 10%;
+	margin-right: 0.625em;
 }
 .quotes-div h5:nth-of-type(3) {
 	text-align: center;
 }
 .quotes-div h5 {
-	margin-left: 5%;
+	margin-left: 0.3125em;
 	text-wrap-mode: nowrap;
 }
 

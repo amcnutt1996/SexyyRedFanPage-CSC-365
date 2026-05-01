@@ -5,22 +5,22 @@ main {
 section {
     flex-basis: 50%;
 }
-div {
+article {
     flex-basis: 10%;
     margin: 3em 0;
     display: flex;
     float: right;
 }
-div img {
+article img {
     width: 35em;
     border-style: groove;
     border-radius: 10px;
-    border-width: 10px;
+    border-width: 0.625em;
     border-color: #FF69B4;
     overflow: hidden;
     box-shadow: #CCFF00 0px 0 50px;
 }
-div span {
+article span {
     position: relative;
     top: 35px;
     left: 295px;

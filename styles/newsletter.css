@@ -9,22 +9,22 @@
 
 .form-div label {
     align-self: flex-start;
-	margin: 20px 0 0 0;
+	margin: 1.25em 0 0 0;
 	padding: 0;
 }
 
 section input {
 	margin: 0;
-	height: 25px;
+	height: 1.5625em;
 	width: 200px;
 }
 
 section button {
-	margin-top: 50px;
+	margin-top: 3.125em;
 	border-style:outset;
-	border-width: 5px;
+	border-width: 0.3125em;
 	border-radius: 20px;
-	height: 50px;
+	height: 3.125em;
 	width: 300px;
 	font-size: 1.2rem;
     color: white;
@@ -37,7 +37,8 @@ section button {
 	box-shadow: white 0 0 30px;
 }
 
-section button:hover {
+section button:hover,
+section button:focus {
 	color:#d4af37;
 	background-color:#0f0f0f;
 }

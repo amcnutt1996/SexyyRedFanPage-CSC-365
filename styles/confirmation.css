@@ -3,11 +3,11 @@ section {
 }
 
 section button {
-	margin-top: 50px;
+	margin-top: 3.125em;
 	border-style:outset;
-	border-width: 5px;
+	border-width: 0.3125em;
 	border-radius: 20px;
-	height: 100px;
+	height: 6.25em;
 	width: 400px;
 	font-size: 2rem;
     color: white;
@@ -20,7 +20,8 @@ section button {
 	box-shadow: white 0 0 30px;
 }
 
-section button:hover {
+section button:hover,
+section button:focus {
 	color:#d4af37;
 	background-color:#0f0f0f;
 }
