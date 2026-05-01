@@ -1,0 +1,166 @@
+@page {
+	size: auto;
+	margin: 0.5in;
+}
+
+html,
+body {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block !important;
+	color: #000 !important;
+	background: #fff !important;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 11pt !important;
+	line-height: 1.45;
+	-webkit-print-color-adjust: economy;
+	print-color-adjust: economy;
+}
+
+*,
+*::before,
+*::after {
+	background: transparent !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	filter: none !important;
+	animation: none !important;
+	transition: none !important;
+}
+
+header,
+nav,
+footer,
+#call-to-action,
+.line,
+.form-div,
+button,
+input,
+label,
+script,
+video,
+audio,
+iframe,
+canvas,
+object,
+embed,
+picture,
+source,
+img {
+	display: none !important;
+}
+
+main,
+section,
+article,
+aside {
+	display: block !important;
+	width: 100% !important;
+	max-width: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+section,
+article,
+aside,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	color: #000 !important;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	margin: 0 0 0.4em 0 !important;
+	text-decoration: none !important;
+	page-break-after: avoid;
+}
+
+h1 {
+	font-size: 18pt !important;
+}
+
+h2 {
+	font-size: 14pt !important;
+}
+
+h3 {
+	font-size: 12pt !important;
+}
+
+p,
+li {
+	color: #000 !important;
+	font-size: 11pt !important;
+	margin: 0 0 0.5em 0 !important;
+}
+
+ul,
+ol {
+	padding-left: 1.2em !important;
+	margin: 0 0 0.75em 0 !important;
+}
+
+a,
+a:visited {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
+a[href]::after {
+	content: " (" attr(href) ")";
+	font-size: 0.9em;
+	word-break: break-all;
+}
+
+.video {
+	display: block !important;
+	margin: 0 0 1em 0 !important;
+	padding: 0 !important;
+	float: none !important;
+	break-inside: avoid;
+}
+
+.video h3 {
+	width: auto !important;
+	margin: 0 0 0.25em 0 !important;
+	background: transparent !important;
+	color: #000 !important;
+}
+
+.video a::after {
+	display: block;
+	margin-top: 0.2em;
+}
+
+#video-container {
+	display: block !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+section > h3,
+#current,
+.quotes-div,
+.center-text {
+	color: #000 !important;
+	background: transparent !important;
+}
