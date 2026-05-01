@@ -15,8 +15,9 @@
 
 section input {
 	margin: 0;
-	height: 1.5625em;
-	width: 200px;
+	height: 50px;
+	width: 250px;
+	font-size: medium;
 }
 
 section button {

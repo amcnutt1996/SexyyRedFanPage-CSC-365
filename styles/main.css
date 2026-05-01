@@ -100,8 +100,8 @@ section h1 {
 	font-size: 4em;
 	text-decoration: underline;
 	text-decoration-style: double;
-	text-decoration-thickness: 0.1875em;
-	text-underline-offset: 0.625em;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 10px;
 	text-decoration-color: #d4af37;
 }
 section h2 {
@@ -150,8 +150,8 @@ section img {
 #call-to-action-title {
 	position: relative;
 	flex-shrink: inherit;
-	top: 0.625em;
-	left: -2.8125em;
+	top: 10px;
+	left: -20px;
 	font-size: 5em;
 	color: white;
 	text-shadow: #0f0f0f -5px 0px 10px;
